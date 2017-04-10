@@ -3,9 +3,9 @@ import time
 import os
 import sys
 from scapy.all import *
-
-os.system("iw dev wlan0 set type monitor")
-os.system("iw dev wlan0 set channel 64 HT20")  
+os.system("insmod 8812au-3.ko")
+os.system("iw dev wlan1 set type monitor")
+os.system("iw dev wlan1 set channel 64 HT20")  
 sended = time.time()
 pkts=rdpcap("abcd.pcap")
 while True:
