@@ -1,0 +1,501 @@
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- -C /root/linux  M=/home/ubuntu/rtl8812au  modules
+make[1]: Entering directory '/root/linux'
+  CC [M]  /home/ubuntu/rtl8812au/core/rtw_cmd.o
+In file included from /home/ubuntu/rtl8812au/include/rtw_odm.h:24:0,
+                 from /home/ubuntu/rtl8812au/include/drv_types.h:116,
+                 from /home/ubuntu/rtl8812au/core/rtw_cmd.c:22:
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_types.h:35:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE == ODM_WIN)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_types.h:37:8: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #elif (DM_ODM_SUPPORT_TYPE == ODM_CE)
+        ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_types.h:41:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE != ODM_WIN)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_types.h:58:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if( DM_ODM_SUPPORT_TYPE == ODM_AP)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_types.h:61:5: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if(DM_ODM_SUPPORT_TYPE != ODM_WIN)
+     ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_types.h:118:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE == ODM_WIN)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_types.h:136:8: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #elif (DM_ODM_SUPPORT_TYPE == ODM_AP)
+        ^
+In file included from /home/ubuntu/rtl8812au/include/rtw_odm.h:24:0,
+                 from /home/ubuntu/rtl8812au/include/drv_types.h:116,
+                 from /home/ubuntu/rtl8812au/core/rtw_cmd.c:22:
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_types.h:221:8: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #elif (DM_ODM_SUPPORT_TYPE == ODM_CE)
+        ^
+In file included from /home/ubuntu/rtl8812au/include/hal_data.h:25:0,
+                 from /home/ubuntu/rtl8812au/core/rtw_cmd.c:23:
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:26:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE == ODM_WIN)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:32:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE ==ODM_CE) 
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:50:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE == ODM_AP)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:67:8: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #elif (DM_ODM_SUPPORT_TYPE ==ODM_CE)
+        ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:70:8: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #elif (DM_ODM_SUPPORT_TYPE == ODM_WIN)
+        ^
+In file included from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:28:0,
+                 from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:79,
+                 from /home/ubuntu/rtl8812au/include/hal_data.h:25,
+                 from /home/ubuntu/rtl8812au/core/rtw_cmd.c:23:
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_pre_define.h:47:5: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if(DM_ODM_SUPPORT_TYPE & (ODM_CE))
+     ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_pre_define.h:50:7: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #elif(DM_ODM_SUPPORT_TYPE & (ODM_AP|ODM_ADSL))
+       ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_pre_define.h:222:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE == ODM_WIN)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_pre_define.h:240:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE == ODM_WIN)
+      ^
+In file included from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:28:0,
+                 from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:79,
+                 from /home/ubuntu/rtl8812au/include/hal_data.h:25,
+                 from /home/ubuntu/rtl8812au/core/rtw_cmd.c:23:
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_pre_define.h:288:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE == ODM_AP)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_pre_define.h:299:8: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #elif (DM_ODM_SUPPORT_TYPE == ODM_WIN)
+        ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_pre_define.h:307:6: warning: "RTL8192C_SUPPORT" is not defined [-Wundef]
+ #if((RTL8192C_SUPPORT == 1) || (RTL8192D_SUPPORT == 1) || (RTL8723A_SUPPORT == 1) || (RTL8188E_SUPPORT == 1) ||\
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_pre_define.h:307:33: warning: "RTL8192D_SUPPORT" is not defined [-Wundef]
+ #if((RTL8192C_SUPPORT == 1) || (RTL8192D_SUPPORT == 1) || (RTL8723A_SUPPORT == 1) || (RTL8188E_SUPPORT == 1) ||\
+                                 ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_pre_define.h:307:60: warning: "RTL8723A_SUPPORT" is not defined [-Wundef]
+ #if((RTL8192C_SUPPORT == 1) || (RTL8192D_SUPPORT == 1) || (RTL8723A_SUPPORT == 1) || (RTL8188E_SUPPORT == 1) ||\
+                                                            ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_pre_define.h:413:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE & (ODM_CE))
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_pre_define.h:446:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE & (ODM_AP))
+      ^
+In file included from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:29:0,
+                 from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:79,
+                 from /home/ubuntu/rtl8812au/include/hal_data.h:25,
+                 from /home/ubuntu/rtl8812au/core/rtw_cmd.c:23:
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_dig.h:86:5: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if(DM_ODM_SUPPORT_TYPE & (ODM_AP|ODM_ADSL))
+     ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_dig.h:201:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE & (ODM_AP|ODM_ADSL))
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_dig.h:213:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE & ODM_CE)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_dig.h:299:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE == ODM_WIN)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_dig.h:312:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE & (ODM_AP|ODM_ADSL))
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_dig.h:319:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE != ODM_CE)
+      ^
+In file included from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:30:0,
+                 from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:79,
+                 from /home/ubuntu/rtl8812au/include/hal_data.h:25,
+                 from /home/ubuntu/rtl8812au/core/rtw_cmd.c:23:
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_edcaturbocheck.h:32:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+  #if(DM_ODM_SUPPORT_TYPE == ODM_CE )
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_edcaturbocheck.h:38:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE & (ODM_WIN|ODM_CE))
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_edcaturbocheck.h:65:5: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if(DM_ODM_SUPPORT_TYPE==ODM_WIN)
+     ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_edcaturbocheck.h:93:8: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #elif (DM_ODM_SUPPORT_TYPE==ODM_CE)
+        ^
+In file included from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:31:0,
+                 from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:79,
+                 from /home/ubuntu/rtl8812au/include/hal_data.h:25,
+                 from /home/ubuntu/rtl8812au/core/rtw_cmd.c:23:
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_pathdiv.h:164:5: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if(DM_ODM_SUPPORT_TYPE & (ODM_WIN)) 
+     ^
+In file included from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:32:0,
+                 from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:79,
+                 from /home/ubuntu/rtl8812au/include/hal_data.h:25,
+                 from /home/ubuntu/rtl8812au/core/rtw_cmd.c:23:
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_antdiv.h:167:2: error: unknown type name ‘RT_TIMER’
+  RT_TIMER  SwAntennaSwitchTimer;
+  ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_antdiv.h:169:2: error: unknown type name ‘RT_TIMER’
+  RT_TIMER  SwAntennaSwitchTimer_8723B;
+  ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_antdiv.h:174:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE == ODM_WIN) 
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_antdiv.h:216:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE & (ODM_AP))
+      ^
+In file included from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:28:0,
+                 from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:79,
+                 from /home/ubuntu/rtl8812au/include/hal_data.h:25,
+                 from /home/ubuntu/rtl8812au/core/rtw_cmd.c:23:
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_pre_define.h:54:39: error: ‘ASSOCIATE_ENTRY_NUM’ undeclared here (not in a function)
+  #define ODM_ASSOCIATE_ENTRY_NUM    ((ASSOCIATE_ENTRY_NUM*3)+1)
+                                       ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_antdiv.h:289:18: note: in expansion of macro ‘ODM_ASSOCIATE_ENTRY_NUM’
+  u1Byte antsel_a[ODM_ASSOCIATE_ENTRY_NUM];
+                  ^
+In file included from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:32:0,
+                 from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:79,
+                 from /home/ubuntu/rtl8812au/include/hal_data.h:25,
+                 from /home/ubuntu/rtl8812au/core/rtw_cmd.c:23:
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_antdiv.h:328:7: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+  #if (DM_ODM_SUPPORT_TYPE & (ODM_WIN|ODM_CE))
+       ^
+In file included from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:35:0,
+                 from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:79,
+                 from /home/ubuntu/rtl8812au/include/hal_data.h:25,
+                 from /home/ubuntu/rtl8812au/core/rtw_cmd.c:23:
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_rainfo.h:59:5: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if(DM_ODM_SUPPORT_TYPE == ODM_AP)
+     ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_rainfo.h:62:8: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #elif (DM_ODM_SUPPORT_TYPE == ODM_WIN)
+        ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_rainfo.h:65:8: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #elif (DM_ODM_SUPPORT_TYPE == ODM_CE)
+        ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_rainfo.h:77:5: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if(DM_ODM_SUPPORT_TYPE & ODM_AP)
+     ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_rainfo.h:160:5: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if(DM_ODM_SUPPORT_TYPE==ODM_WIN)
+     ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_rainfo.h:206:5: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if(DM_ODM_SUPPORT_TYPE & (ODM_WIN|ODM_CE))
+     ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_rainfo.h:211:5: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if(DM_ODM_SUPPORT_TYPE & ODM_WIN)
+     ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_rainfo.h:213:7: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #elif(DM_ODM_SUPPORT_TYPE & ODM_CE)
+       ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_rainfo.h:289:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE == ODM_WIN)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_rainfo.h:357:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE & (ODM_WIN | ODM_CE))
+      ^
+In file included from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:36:0,
+                 from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:79,
+                 from /home/ubuntu/rtl8812au/include/hal_data.h:25,
+                 from /home/ubuntu/rtl8812au/core/rtw_cmd.c:23:
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_dynamictxpower.h:58:5: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if(DM_ODM_SUPPORT_TYPE & (ODM_WIN|ODM_CE))
+     ^
+In file included from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:38:0,
+                 from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:79,
+                 from /home/ubuntu/rtl8812au/include/hal_data.h:25,
+                 from /home/ubuntu/rtl8812au/core/rtw_cmd.c:23:
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_acs.h:43:7: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if ( DM_ODM_SUPPORT_TYPE & ODM_AP )    
+       ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_acs.h:88:7: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if ( DM_ODM_SUPPORT_TYPE & ODM_AP )
+       ^
+In file included from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:39:0,
+                 from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:79,
+                 from /home/ubuntu/rtl8812au/include/hal_data.h:25,
+                 from /home/ubuntu/rtl8812au/core/rtw_cmd.c:23:
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_adaptivity.h:30:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE & (ODM_WIN))
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_adaptivity.h:147:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE == ODM_WIN)
+      ^
+In file included from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:79:0,
+                 from /home/ubuntu/rtl8812au/include/hal_data.h:25,
+                 from /home/ubuntu/rtl8812au/core/rtw_cmd.c:23:
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:47:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE & (ODM_AP))
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:52:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE & (ODM_CE))
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:59:5: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if(DM_ODM_SUPPORT_TYPE & (ODM_WIN))
+     ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:113:5: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if(DM_ODM_SUPPORT_TYPE & (ODM_CE|ODM_WIN))
+     ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:121:5: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if(DM_ODM_SUPPORT_TYPE & (ODM_AP|ODM_ADSL))
+     ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:131:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE == ODM_AP)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:150:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE & ODM_AP)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:195:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE &  (ODM_AP))
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:224:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE &  (ODM_WIN))
+      ^
+In file included from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:79:0,
+                 from /home/ubuntu/rtl8812au/include/hal_data.h:25,
+                 from /home/ubuntu/rtl8812au/core/rtw_cmd.c:23:
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:465:5: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if(DM_ODM_SUPPORT_TYPE & ODM_AP)  // for repeater mode add by YuChen 2014.06.23
+     ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:558:5: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if(DM_ODM_SUPPORT_TYPE & ODM_WIN)
+     ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:573:2: error: unknown type name ‘prtl8192cd_priv’
+  prtl8192cd_priv priv;   // For AP/ADSL team
+  ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:577:5: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if(DM_ODM_SUPPORT_TYPE & (ODM_CE|ODM_WIN))
+     ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:580:5: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if(DM_ODM_SUPPORT_TYPE & (ODM_AP|ODM_ADSL))
+     ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:727:5: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if(DM_ODM_SUPPORT_TYPE & ODM_AP)  // for repeater mode add by YuChen 2014.06.23
+     ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:831:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE &  (ODM_CE))
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:838:2: error: unknown type name ‘PSTA_INFO_T’
+  PSTA_INFO_T  pODM_StaInfo[ODM_ASSOCIATE_ENTRY_NUM];
+  ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:886:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE & ODM_WIN)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:903:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE & ODM_WIN)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:936:2: error: unknown type name ‘RT_TIMER’
+  RT_TIMER   PSDTimer;
+  ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:943:2: error: unknown type name ‘RT_TIMER’
+  RT_TIMER   MPT_DIGTimer;
+  ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:953:2: error: unknown type name ‘ODM_RF_CAL_T’
+  ODM_RF_CAL_T RFCalibrateInfo;
+  ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:960:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE &  (ODM_WIN|ODM_CE)) 
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:977:2: error: unknown type name ‘RT_TIMER’
+  RT_TIMER     PathDivSwitchTimer;
+  ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:979:2: error: unknown type name ‘RT_TIMER’
+  RT_TIMER    CCKPathDiversityTimer;
+  ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:980:2: error: unknown type name ‘RT_TIMER’
+  RT_TIMER  FastAntTrainingTimer;
+  ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:984:2: error: unknown type name ‘RT_TIMER’
+  RT_TIMER  sbdcnt_timer;
+  ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:987:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE == ODM_WIN)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:998:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE & (ODM_WIN | ODM_CE))
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:1004:5: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if(DM_ODM_SUPPORT_TYPE & ODM_WIN)
+     ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:1062:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE != ODM_WIN)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:1148:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE & (ODM_AP|ODM_ADSL))
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:1150:8: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #elif (DM_ODM_SUPPORT_TYPE & ODM_WIN)
+        ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:1164:5: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if(DM_ODM_SUPPORT_TYPE & (ODM_WIN|ODM_AP|ODM_ADSL))
+     ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:1194:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if((DM_ODM_SUPPORT_TYPE==ODM_WIN)||(DM_ODM_SUPPORT_TYPE==ODM_CE))
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:1194:38: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if((DM_ODM_SUPPORT_TYPE==ODM_WIN)||(DM_ODM_SUPPORT_TYPE==ODM_CE))
+                                      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:1204:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE & ODM_WIN) 
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:1278:5: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if(DM_ODM_SUPPORT_TYPE==ODM_AP)
+     ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:1308:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE == ODM_WIN)
+      ^
+In file included from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:79:0,
+                 from /home/ubuntu/rtl8812au/include/hal_data.h:25,
+                 from /home/ubuntu/rtl8812au/core/rtw_cmd.c:23:
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:1380:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE == ODM_WIN) ||(DM_ODM_SUPPORT_TYPE == ODM_CE)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:1380:41: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE == ODM_WIN) ||(DM_ODM_SUPPORT_TYPE == ODM_CE)
+                                         ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm.h:1431:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE == ODM_CE)
+      ^
+In file included from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:80:0,
+                 from /home/ubuntu/rtl8812au/include/hal_data.h:25,
+                 from /home/ubuntu/rtl8812au/core/rtw_cmd.c:23:
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_hwconfig.h:45:8: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘typedef’
+ __PACK typedef struct _Phy_Rx_AGC_Info
+        ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_hwconfig.h:47:7: warning: "ODM_ENDIAN_TYPE" is not defined [-Wundef]
+  #if (ODM_ENDIAN_TYPE == ODM_ENDIAN_LITTLE) 
+       ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_hwconfig.h:52:24: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PHY_RX_AGC_INFO_T’
+ } __WLAN_ATTRIB_PACK__ PHY_RX_AGC_INFO_T, *pPHY_RX_AGC_INFO_T;
+                        ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_hwconfig.h:54:8: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘typedef’
+ __PACK typedef struct _Phy_Status_Rpt_8192cd {
+        ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_hwconfig.h:55:2: error: unknown type name ‘PHY_RX_AGC_INFO_T’
+  PHY_RX_AGC_INFO_T path_agc[2];
+  ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_hwconfig.h:73:6: warning: "ODM_ENDIAN_TYPE" is not defined [-Wundef]
+ #if (ODM_ENDIAN_TYPE == ODM_ENDIAN_LITTLE)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_hwconfig.h:90:24: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PHY_STATUS_RPT_8192CD_T’
+ } __WLAN_ATTRIB_PACK__ PHY_STATUS_RPT_8192CD_T, *PPHY_STATUS_RPT_8192CD_T;
+                        ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_hwconfig.h:97:6: warning: "ODM_ENDIAN_TYPE" is not defined [-Wundef]
+ #if (ODM_ENDIAN_TYPE == ODM_ENDIAN_LITTLE)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_hwconfig.h:110:6: warning: "ODM_ENDIAN_TYPE" is not defined [-Wundef]
+ #if (ODM_ENDIAN_TYPE == ODM_ENDIAN_LITTLE)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_hwconfig.h:122:6: warning: "ODM_ENDIAN_TYPE" is not defined [-Wundef]
+ #if (ODM_ENDIAN_TYPE == ODM_ENDIAN_LITTLE)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_hwconfig.h:141:6: warning: "ODM_ENDIAN_TYPE" is not defined [-Wundef]
+ #if (ODM_ENDIAN_TYPE == ODM_ENDIAN_LITTLE)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_hwconfig.h:158:6: warning: "ODM_ENDIAN_TYPE" is not defined [-Wundef]
+ #if (ODM_ENDIAN_TYPE == ODM_ENDIAN_LITTLE)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_hwconfig.h:169:6: warning: "ODM_ENDIAN_TYPE" is not defined [-Wundef]
+ #if (ODM_ENDIAN_TYPE == ODM_ENDIAN_LITTLE)
+      ^
+In file included from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:81:0,
+                 from /home/ubuntu/rtl8812au/include/hal_data.h:25,
+                 from /home/ubuntu/rtl8812au/core/rtw_cmd.c:23:
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_debug.h:117:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE == ODM_WIN)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_debug.h:119:8: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #elif (DM_ODM_SUPPORT_TYPE == ODM_CE)
+        ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_debug.h:206:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE == ODM_WIN)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_debug.h:214:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE == ODM_WIN)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_debug.h:231:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE == ODM_CE)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_debug.h:265:5: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if(DM_ODM_SUPPORT_TYPE & (ODM_CE|ODM_AP))
+     ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_debug.h:286:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE == ODM_WIN)
+      ^
+In file included from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:84:0,
+                 from /home/ubuntu/rtl8812au/include/hal_data.h:25,
+                 from /home/ubuntu/rtl8812au/core/rtw_cmd.c:23:
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_interface.h:143:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE != ODM_WIN)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_interface.h:381:5: error: unknown type name ‘PRT_TIMER’
+  IN PRT_TIMER   pTimer, 
+     ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_interface.h:388:5: error: unknown type name ‘PRT_TIMER’
+  IN PRT_TIMER    pTimer, 
+     ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_interface.h:389:5: error: unknown type name ‘RT_TIMER_CALL_BACK’
+  IN RT_TIMER_CALL_BACK CallBackFunc, 
+     ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_interface.h:397:5: error: unknown type name ‘PRT_TIMER’
+  IN PRT_TIMER  pTimer
+     ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_interface.h:403:5: error: unknown type name ‘PRT_TIMER’
+  IN PRT_TIMER  pTimer
+     ^
+In file included from /home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:85:0,
+                 from /home/ubuntu/rtl8812au/include/hal_data.h:25,
+                 from /home/ubuntu/rtl8812au/core/rtw_cmd.c:23:
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_reg.h:122:5: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if(DM_ODM_SUPPORT_TYPE & (ODM_AP))
+     ^
+In file included from /home/ubuntu/rtl8812au/include/hal_data.h:25:0,
+                 from /home/ubuntu/rtl8812au/core/rtw_cmd.c:23:
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:88:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE & ODM_CE)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:106:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE & ODM_AP)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:170:10: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+     #if (DM_ODM_SUPPORT_TYPE == ODM_WIN)
+          ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:172:12: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+     #elif (DM_ODM_SUPPORT_TYPE == ODM_AP)
+            ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:174:12: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+     #elif (DM_ODM_SUPPORT_TYPE == ODM_CE)
+            ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:179:10: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+     #if (DM_ODM_SUPPORT_TYPE != ODM_AP)
+          ^
+In file included from /home/ubuntu/rtl8812au/include/hal_data.h:25:0,
+                 from /home/ubuntu/rtl8812au/core/rtw_cmd.c:23:
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:188:10: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+     #if (DM_ODM_SUPPORT_TYPE == ODM_CE)
+          ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:217:6: warning: "RTL8881A_SUPPORT" is not defined [-Wundef]
+ #if (RTL8881A_SUPPORT==1)//FOR_8881_IQK
+      ^
+In file included from /home/ubuntu/rtl8812au/include/hal_data.h:25:0,
+                 from /home/ubuntu/rtl8812au/core/rtw_cmd.c:23:
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:255:6: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #if (DM_ODM_SUPPORT_TYPE == ODM_WIN)
+      ^
+/home/ubuntu/rtl8812au/include/../hal/phydm/phydm_precomp.h:257:8: warning: "DM_ODM_SUPPORT_TYPE" is not defined [-Wundef]
+ #elif (DM_ODM_SUPPORT_TYPE == ODM_CE)
+        ^
+scripts/Makefile.build:293: recipe for target '/home/ubuntu/rtl8812au/core/rtw_cmd.o' failed
+make[2]: *** [/home/ubuntu/rtl8812au/core/rtw_cmd.o] Error 1
+Makefile:1497: recipe for target '_module_/home/ubuntu/rtl8812au' failed
+make[1]: *** [_module_/home/ubuntu/rtl8812au] Error 2
+make[1]: Leaving directory '/root/linux'
+Makefile:1262: recipe for target 'modules' failed
+make: *** [modules] Error 2
